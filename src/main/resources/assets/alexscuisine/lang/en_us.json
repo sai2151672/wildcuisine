@@ -1,0 +1,29 @@
+{
+  "itemGroup.alexscuisine": "Alex's Cuisine",
+
+  "item.alexscuisine.cooked_bison": "Cooked Bison",
+  "item.alexscuisine.raw_bison": "Raw Bison",
+  "item.alexscuisine.cooked_bunfungus": "Cooked Bunfungus",
+  "item.alexscuisine.raw_bunfungus": "Raw Bunfungus",
+  "item.alexscuisine.cooked_centipede_leg": "Cooked Centipede Leg",
+
+  "item.alexscuisine.kangaroo_shank": "Kangaroo Shank",
+  "item.alexscuisine.cooked_kangaroo_shank": "Cooked Kangaroo Shank",
+  "item.alexscuisine.loose_moose_rib": "Loose Moose Rib",
+  "item.alexscuisine.cooked_loose_moose_rib": "Cooked Loose Moose Rib",
+  "item.alexscuisine.bison_mince": "Bison Mince",
+  "item.alexscuisine.bison_patty": "Bison Patty",
+  "item.alexscuisine.raw_bunfungus_drumstick": "Raw Bunfungus Drumstick",
+  "item.alexscuisine.cooked_bunfungus_drumstick": "Cooked Bunfungus Drumstick",
+  "item.alexscuisine.raw_catfish_slice": "Raw Catfish Slice",
+  "item.alexscuisine.cooked_catfish_slice": "Cooked Catfish Slice",
+
+  "item.alexscuisine.gongylidia_bruschetta": "Gongylidia Bruschetta",
+  "item.alexscuisine.maggot_salad": "Maggot Salad",
+  "item.alexscuisine.kangaroo_stew": "Kangaroo Stew",
+  "item.alexscuisine.acacia_blossom_soup": "Acacia Blossom Soup",
+  "item.alexscuisine.lobster_pasta": "Lobster Pasta",
+  "item.alexscuisine.bison_burger": "Bison Burger",
+  "item.alexscuisine.bunfungus_sandwich": "Bunfungus Sandwich",
+  "item.alexscuisine.kangaroo_pasta": "Kangaroo Pasta"
+}

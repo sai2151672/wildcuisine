@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "alexscuisine:raw_bunfungus"
+  },
+  "result": {
+    "item": "alexscuisine:cooked_bunfungus"
+  }
+}
+

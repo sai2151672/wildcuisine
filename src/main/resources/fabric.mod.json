@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "alexscuisine",
+  "version": "${version}",
+  "name": "Alex's Cuisine",
+  "description": "Adds compatibility between Alex's Mobs and Farmer's Delight on Fabric. Original dishes, textures, and recipes.",
+  "authors": [
+    "Sai Dasari"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/alexscuisine/textures/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.alexscuisine.AlexsCuisine"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "farmersdelight": "*",
+    "alexsmobs": "*"
+  }
+}
