@@ -5,8 +5,6 @@
   "ingredient": {
     "item": "alexscuisine:raw_catfish_slice"
   },
-  "result": {
-    "item": "alexscuisine:cooked_catfish_slice"
-  }
+  "result": "alexscuisine:cooked_catfish_slice"
 }
 

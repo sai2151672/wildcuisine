@@ -5,8 +5,6 @@
   "ingredient": {
     "item": "alexsmobs:centipede_leg"
   },
-  "result": {
-    "item": "alexscuisine:cooked_centipede_leg"
-  }
+  "result": "alexscuisine:cooked_centipede_leg"
 }
 

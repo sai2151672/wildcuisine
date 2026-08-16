@@ -5,8 +5,6 @@
   "ingredient": {
     "item": "alexscuisine:loose_moose_rib"
   },
-  "result": {
-    "item": "alexscuisine:cooked_loose_moose_rib"
-  }
+  "result": "alexscuisine:cooked_loose_moose_rib"
 }
 

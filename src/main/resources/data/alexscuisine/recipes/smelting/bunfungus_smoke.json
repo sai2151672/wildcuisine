@@ -5,8 +5,6 @@
   "ingredient": {
     "item": "alexscuisine:raw_bunfungus"
   },
-  "result": {
-    "item": "alexscuisine:cooked_bunfungus"
-  }
+  "result": "alexscuisine:cooked_bunfungus"
 }
 

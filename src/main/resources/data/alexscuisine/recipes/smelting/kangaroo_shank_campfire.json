@@ -5,8 +5,6 @@
   "ingredient": {
     "item": "alexscuisine:kangaroo_shank"
   },
-  "result": {
-    "item": "alexscuisine:cooked_kangaroo_shank"
-  }
+  "result": "alexscuisine:cooked_kangaroo_shank"
 }
 

@@ -5,8 +5,6 @@
   "ingredient": {
     "item": "alexscuisine:bison_mince"
   },
-  "result": {
-    "item": "alexscuisine:bison_patty"
-  }
+  "result": "alexscuisine:bison_patty"
 }
 
