@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alexscuisine:cooked_caiman_ribs"
+    },
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "minecraft:beetroot"
+    }
+  ],
+  "result": {
+    "item": "alexscuisine:caiman_ribs_platter",
+    "count": 1
+  }
+}

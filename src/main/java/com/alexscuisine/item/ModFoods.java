@@ -44,6 +44,12 @@ public class ModFoods {
     public static final FoodComponent COOKED_BUNFUNGUS_DRUMSTICK = new FoodComponent.Builder().hunger(3).saturationModifier(0.4F).meat().snack().build();
     public static final FoodComponent RAW_CATFISH_SLICE = new FoodComponent.Builder().hunger(1).saturationModifier(0.2F).meat().snack().build();
     public static final FoodComponent COOKED_CATFISH_SLICE = new FoodComponent.Builder().hunger(3).saturationModifier(0.3F).meat().snack().build();
+    public static final FoodComponent RAW_BEAR_SHANK = new FoodComponent.Builder().hunger(3).saturationModifier(0.3F).meat().snack().build();
+    public static final FoodComponent COOKED_BEAR_SHANK = new FoodComponent.Builder().hunger(6).saturationModifier(0.6F).meat().snack().build();
+    public static final FoodComponent RAW_CROCODILE_TAIL = new FoodComponent.Builder().hunger(3).saturationModifier(0.3F).meat().snack().build();
+    public static final FoodComponent COOKED_CROCODILE_TAIL = new FoodComponent.Builder().hunger(6).saturationModifier(0.6F).meat().snack().build();
+    public static final FoodComponent RAW_CAIMAN_RIBS = new FoodComponent.Builder().hunger(2).saturationModifier(0.2F).meat().snack().build();
+    public static final FoodComponent COOKED_CAIMAN_RIBS = new FoodComponent.Builder().hunger(5).saturationModifier(0.5F).meat().snack().build();
 
     // MEALS
     public static final FoodComponent GONGYLIDIA_BRUSCHETTA = new FoodComponent.Builder().hunger(10).saturationModifier(1.0F).build();
@@ -55,4 +61,7 @@ public class ModFoods {
     public static final FoodComponent BISON_BURGER = new FoodComponent.Builder().hunger(12).saturationModifier(1.1F).build();
     public static final FoodComponent BUNFUNGUS_SANDWICH = new FoodComponent.Builder().hunger(10).saturationModifier(1.0F).build();
     public static final FoodComponent KANGAROO_PASTA = nourishmentMeal(10, 0.8F);
+    public static final FoodComponent BEAR_STEW = nourishmentMeal(10, 0.8F);
+    public static final FoodComponent SWAMP_GUMBO = nourishmentMeal(10, 0.8F);
+    public static final FoodComponent CAIMAN_RIBS_PLATTER = new FoodComponent.Builder().hunger(10).saturationModifier(1.0F).build();
 }

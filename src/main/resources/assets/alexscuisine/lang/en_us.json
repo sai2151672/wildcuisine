@@ -17,6 +17,12 @@
   "item.alexscuisine.cooked_bunfungus_drumstick": "Cooked Bunfungus Drumstick",
   "item.alexscuisine.raw_catfish_slice": "Raw Catfish Slice",
   "item.alexscuisine.cooked_catfish_slice": "Cooked Catfish Slice",
+  "item.alexscuisine.raw_bear_shank": "Raw Bear Shank",
+  "item.alexscuisine.cooked_bear_shank": "Cooked Bear Shank",
+  "item.alexscuisine.raw_crocodile_tail": "Raw Crocodile Tail",
+  "item.alexscuisine.cooked_crocodile_tail": "Cooked Crocodile Tail",
+  "item.alexscuisine.raw_caiman_ribs": "Raw Caiman Ribs",
+  "item.alexscuisine.cooked_caiman_ribs": "Cooked Caiman Ribs",
 
   "item.alexscuisine.gongylidia_bruschetta": "Gongylidia Bruschetta",
   "item.alexscuisine.maggot_salad": "Maggot Salad",
@@ -25,5 +31,8 @@
   "item.alexscuisine.lobster_pasta": "Lobster Pasta",
   "item.alexscuisine.bison_burger": "Bison Burger",
   "item.alexscuisine.bunfungus_sandwich": "Bunfungus Sandwich",
-  "item.alexscuisine.kangaroo_pasta": "Kangaroo Pasta"
+  "item.alexscuisine.kangaroo_pasta": "Kangaroo Pasta",
+  "item.alexscuisine.bear_stew": "Bear Stew",
+  "item.alexscuisine.swamp_gumbo": "Swamp Gumbo",
+  "item.alexscuisine.caiman_ribs_platter": "Caiman Ribs Platter"
 }

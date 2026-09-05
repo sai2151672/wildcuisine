@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "alexscuisine:raw_crocodile_tail"
+  },
+  "result": "alexscuisine:cooked_crocodile_tail"
+}

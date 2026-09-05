@@ -25,6 +25,12 @@ public class ModItems {
     public static final Item COOKED_BUNFUNGUS_DRUMSTICK = registerItem("cooked_bunfungus_drumstick", new Item(new Item.Settings().food(ModFoods.COOKED_BUNFUNGUS_DRUMSTICK)));
     public static final Item RAW_CATFISH_SLICE = registerItem("raw_catfish_slice", new Item(new Item.Settings().food(ModFoods.RAW_CATFISH_SLICE)));
     public static final Item COOKED_CATFISH_SLICE = registerItem("cooked_catfish_slice", new Item(new Item.Settings().food(ModFoods.COOKED_CATFISH_SLICE)));
+    public static final Item RAW_BEAR_SHANK = registerItem("raw_bear_shank", new Item(new Item.Settings().food(ModFoods.RAW_BEAR_SHANK)));
+    public static final Item COOKED_BEAR_SHANK = registerItem("cooked_bear_shank", new Item(new Item.Settings().food(ModFoods.COOKED_BEAR_SHANK)));
+    public static final Item RAW_CROCODILE_TAIL = registerItem("raw_crocodile_tail", new Item(new Item.Settings().food(ModFoods.RAW_CROCODILE_TAIL)));
+    public static final Item COOKED_CROCODILE_TAIL = registerItem("cooked_crocodile_tail", new Item(new Item.Settings().food(ModFoods.COOKED_CROCODILE_TAIL)));
+    public static final Item RAW_CAIMAN_RIBS = registerItem("raw_caiman_ribs", new Item(new Item.Settings().food(ModFoods.RAW_CAIMAN_RIBS)));
+    public static final Item COOKED_CAIMAN_RIBS = registerItem("cooked_caiman_ribs", new Item(new Item.Settings().food(ModFoods.COOKED_CAIMAN_RIBS)));
 
     // MEATS
     public static final Item RAW_BISON = registerItem("raw_bison", new Item(new Item.Settings().food(ModFoods.RAW_BISON)));
@@ -42,6 +48,9 @@ public class ModItems {
     public static final Item BISON_BURGER = registerItem("bison_burger", new Item(new Item.Settings().food(ModFoods.BISON_BURGER)));
     public static final Item BUNFUNGUS_SANDWICH = registerItem("bunfungus_sandwich", new Item(new Item.Settings().food(ModFoods.BUNFUNGUS_SANDWICH)));
     public static final Item KANGAROO_PASTA = registerItem("kangaroo_pasta", new StewItem(new Item.Settings().maxCount(16).food(ModFoods.KANGAROO_PASTA)));
+    public static final Item BEAR_STEW = registerItem("bear_stew", new StewItem(new Item.Settings().maxCount(16).food(ModFoods.BEAR_STEW)));
+    public static final Item SWAMP_GUMBO = registerItem("swamp_gumbo", new StewItem(new Item.Settings().maxCount(16).food(ModFoods.SWAMP_GUMBO)));
+    public static final Item CAIMAN_RIBS_PLATTER = registerItem("caiman_ribs_platter", new Item(new Item.Settings().food(ModFoods.CAIMAN_RIBS_PLATTER)));
 
     public static final ItemGroup ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AlexsCuisine.MOD_ID, "alexscuisine"),
@@ -59,6 +68,12 @@ public class ModItems {
                         entries.add(COOKED_BUNFUNGUS_DRUMSTICK);
                         entries.add(RAW_CATFISH_SLICE);
                         entries.add(COOKED_CATFISH_SLICE);
+                        entries.add(RAW_BEAR_SHANK);
+                        entries.add(COOKED_BEAR_SHANK);
+                        entries.add(RAW_CROCODILE_TAIL);
+                        entries.add(COOKED_CROCODILE_TAIL);
+                        entries.add(RAW_CAIMAN_RIBS);
+                        entries.add(COOKED_CAIMAN_RIBS);
                         entries.add(RAW_BISON);
                         entries.add(COOKED_BISON);
                         entries.add(RAW_BUNFUNGUS);
@@ -72,6 +87,9 @@ public class ModItems {
                         entries.add(BISON_BURGER);
                         entries.add(BUNFUNGUS_SANDWICH);
                         entries.add(KANGAROO_PASTA);
+                        entries.add(BEAR_STEW);
+                        entries.add(SWAMP_GUMBO);
+                        entries.add(CAIMAN_RIBS_PLATTER);
                     })
                     .build());
 
