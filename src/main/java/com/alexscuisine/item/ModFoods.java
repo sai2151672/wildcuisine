@@ -1,4 +1,3 @@
-// SPDX-License-Identifier: MIT
 package com.alexscuisine.item;
 
 import net.minecraft.entity.effect.StatusEffect;

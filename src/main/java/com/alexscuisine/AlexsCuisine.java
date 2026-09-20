@@ -1,4 +1,3 @@
-// SPDX-License-Identifier: MIT
 package com.alexscuisine;
 
 import com.alexscuisine.item.ModItems;

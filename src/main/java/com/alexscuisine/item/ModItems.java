@@ -1,15 +1,12 @@
-// SPDX-License-Identifier: MIT
 package com.alexscuisine.item;
 
 import com.alexscuisine.AlexsCuisine;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.StewItem;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.item.StewItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -52,52 +49,45 @@ public class ModItems {
     public static final Item SWAMP_GUMBO = registerItem("swamp_gumbo", new StewItem(new Item.Settings().maxCount(16).food(ModFoods.SWAMP_GUMBO)));
     public static final Item CAIMAN_RIBS_PLATTER = registerItem("caiman_ribs_platter", new Item(new Item.Settings().food(ModFoods.CAIMAN_RIBS_PLATTER)));
 
-    public static final ItemGroup ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(AlexsCuisine.MOD_ID, "alexscuisine"),
-            FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(RAW_BISON))
-                    .displayName(Text.translatable("itemGroup.alexscuisine"))
-                    .entries((context, entries) -> {
-                        entries.add(KANGAROO_SHANK);
-                        entries.add(COOKED_KANGAROO_SHANK);
-                        entries.add(LOOSE_MOOSE_RIB);
-                        entries.add(COOKED_LOOSE_MOOSE_RIB);
-                        entries.add(BISON_MINCE);
-                        entries.add(BISON_PATTY);
-                        entries.add(RAW_BUNFUNGUS_DRUMSTICK);
-                        entries.add(COOKED_BUNFUNGUS_DRUMSTICK);
-                        entries.add(RAW_CATFISH_SLICE);
-                        entries.add(COOKED_CATFISH_SLICE);
-                        entries.add(RAW_BEAR_SHANK);
-                        entries.add(COOKED_BEAR_SHANK);
-                        entries.add(RAW_CROCODILE_TAIL);
-                        entries.add(COOKED_CROCODILE_TAIL);
-                        entries.add(RAW_CAIMAN_RIBS);
-                        entries.add(COOKED_CAIMAN_RIBS);
-                        entries.add(RAW_BISON);
-                        entries.add(COOKED_BISON);
-                        entries.add(RAW_BUNFUNGUS);
-                        entries.add(COOKED_BUNFUNGUS);
-                        entries.add(COOKED_CENTIPEDE_LEG);
-                        entries.add(GONGYLIDIA_BRUSCHETTA);
-                        entries.add(MAGGOT_SALAD);
-                        entries.add(KANGAROO_STEW);
-                        entries.add(ACACIA_BLOSSOM_SOUP);
-                        entries.add(LOBSTER_PASTA);
-                        entries.add(BISON_BURGER);
-                        entries.add(BUNFUNGUS_SANDWICH);
-                        entries.add(KANGAROO_PASTA);
-                        entries.add(BEAR_STEW);
-                        entries.add(SWAMP_GUMBO);
-                        entries.add(CAIMAN_RIBS_PLATTER);
-                    })
-                    .build());
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AlexsCuisine.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
         // Static field initialization handles registration.
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
+            entries.add(KANGAROO_SHANK);
+            entries.add(COOKED_KANGAROO_SHANK);
+            entries.add(LOOSE_MOOSE_RIB);
+            entries.add(COOKED_LOOSE_MOOSE_RIB);
+            entries.add(BISON_MINCE);
+            entries.add(BISON_PATTY);
+            entries.add(RAW_BUNFUNGUS_DRUMSTICK);
+            entries.add(COOKED_BUNFUNGUS_DRUMSTICK);
+            entries.add(RAW_CATFISH_SLICE);
+            entries.add(COOKED_CATFISH_SLICE);
+            entries.add(RAW_BEAR_SHANK);
+            entries.add(COOKED_BEAR_SHANK);
+            entries.add(RAW_CROCODILE_TAIL);
+            entries.add(COOKED_CROCODILE_TAIL);
+            entries.add(RAW_CAIMAN_RIBS);
+            entries.add(COOKED_CAIMAN_RIBS);
+            entries.add(RAW_BISON);
+            entries.add(COOKED_BISON);
+            entries.add(RAW_BUNFUNGUS);
+            entries.add(COOKED_BUNFUNGUS);
+            entries.add(COOKED_CENTIPEDE_LEG);
+            entries.add(GONGYLIDIA_BRUSCHETTA);
+            entries.add(MAGGOT_SALAD);
+            entries.add(KANGAROO_STEW);
+            entries.add(ACACIA_BLOSSOM_SOUP);
+            entries.add(LOBSTER_PASTA);
+            entries.add(BISON_BURGER);
+            entries.add(BUNFUNGUS_SANDWICH);
+            entries.add(KANGAROO_PASTA);
+            entries.add(BEAR_STEW);
+            entries.add(SWAMP_GUMBO);
+            entries.add(CAIMAN_RIBS_PLATTER);
+        });
     }
 }
